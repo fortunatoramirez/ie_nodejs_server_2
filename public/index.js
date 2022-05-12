@@ -1,4 +1,4 @@
-var socket = io.connect('192.168.1.127:5001', {'forceNew':true});
+var socket = io.connect('ip.del.ser.ver:5001', {'forceNew':true});
 
 
 socket.on('desde_servidor_temp_c', function(data){
